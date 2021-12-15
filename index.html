@@ -1,0 +1,80 @@
+
+<DOCTYPE HTML5>
+<html>
+ <head>
+  <meta charset="UTF-8">
+   <title>Photoframe</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" crossorigin="anonymous"></script>
+  <!--CSSファイルの読み込み-->
+  <link rel="stylesheet" type="text/css" href="./index.css">
+ </head>
+ <body>
+   <div id="mainvisual">
+   <img src="photoframe.jpg" alt="Photoframe"></div>
+
+   <div id="chara">
+   <img src="character_1.png" alt="neko"></div>
+
+  <!--ファイルの読み込み　拡張子をPNG, JPEGに設定-->
+  <input type="file" id="selectFile" accept=".png,.jpeg">
+
+
+  <section id="contents">
+    <div class="flex-container">
+
+  <!--canvasの描画-->
+  <!-- 読み込んだファイルのcanvas -->
+      <div class="flex-item">
+  <canvas id="concat" width="600" height="400"></canvas>
+
+    <!-- 消しゴム -->
+<p id="eraser"><button type="button2" id="btn-eraser" onclick="cls();"><img src="eraser-solid.svg" width="32" height="32"></button></p>
+  </div>
+
+  <div class="box">
+        <img id="image_file" src=""/>
+        <h1><div>
+        <span><input type="image" src="frame01.png" id="btn-concat" onclick="imageDraw1();"></input></span>
+        <span><input type="image" src="frame02.png" id="btn-concat" onclick="imageDraw2();"></input></span>
+        <span><input type="image" src="frame03.png" id="btn-concat" onclick="imageDraw3();"></input></span>
+        <span><input type="image" src="frame04.png" id="btn-concat" onclick="imageDraw4();"></input></span>
+        <span><input type="image" src="frame05.png" id="btn-concat" onclick="imageDraw5();"></input></span>
+        <span><input type="image" src="frame06.png" id="btn-concat" onclick="imageDraw6();"></input></span>
+        <span><input type="image" src="frame07.png" id="btn-concat" onclick="imageDraw7();"></input></span>
+        <span><input type="image" src="frame08.png" id="btn-concat" onclick="imageDraw8();"></input></span>
+        <span><input type="image" src="frame09.png" id="btn-concat" onclick="imageDraw9();"></input></span>
+        <span><input type="image" src="frame10.png" id="btn-concat" onclick="imageDraw10();"></input></span>
+        <span><input type="image" src="frame11.png" id="btn-concat" onclick="imageDraw11();"></input></span>
+        <span><input type="image" src="frame12.png" id="btn-concat" onclick="imageDraw12();"></input></span>
+        <span><input type="image" src="frame13.png" id="btn-concat" onclick="imageDraw13();"></input></span>
+        <span><input type="image" src="frame14.png" id="btn-concat" onclick="imageDraw14();"></input></span>
+        <span><input type="image" src="frame15.png" id="btn-concat" onclick="imageDraw15();"></input></span>
+        <span><input type="image" src="frame16.png" id="btn-concat" onclick="imageDraw16();"></input></span>
+        <span><input type="image" src="frame17.png" id="btn-concat" onclick="imageDraw17();"></input></span>
+        <span><input type="image" src="frame18.png" id="btn-concat" onclick="imageDraw18();"></input></span>
+        <span><input type="image" src="frame19.png" id="btn-concat" onclick="imageDraw19();"></input></span>
+        <span><input type="image" src="frame20.png" id="btn-concat" onclick="imageDraw20();"></input></span>
+        <span><input type="image" src="frame21.png" id="btn-concat" onclick="imageDraw21();"></input></span>
+        <span><input type="image" src="frame22.png" id="btn-concat" onclick="imageDraw22();"></input></span>
+        <span><input type="image" src="frame23.png" id="btn-concat" onclick="imageDraw23();"></input></span>
+        <span><input type="image" src="frame24.png" id="btn-concat" onclick="imageDraw24();"></input></span>
+        <span><input type="image" src="frame25.png" id="btn-concat" onclick="imageDraw25();"></input></span>
+        <span><input type="image" src="frame26.png" id="btn-concat" onclick="imageDraw26();"></input></span>
+        <span><input type="image" src="frame27.png" id="btn-concat" onclick="imageDraw27();"></input></span>
+        <span><input type="image" src="frame28.png" id="btn-concat" onclick="imageDraw28();"></input></span>
+        <span><input type="image" src="frame29.png" id="btn-concat" onclick="imageDraw29();"></input></span>
+        <span><input type="image" src="frame30.png" id="btn-concat" onclick="imageDraw30();"></input></span>
+        <span><input type="image" src="frame31.png" id="btn-concat" onclick="imageDraw31();"></input></span>
+        <span><input type="image" src="frame32.png" id="btn-concat" onclick="imageDraw32();"></input></span>
+        </h1></div>
+
+        <h2><div>
+
+      </h2></div>
+        </div>
+    </section>
+
+  <!--.jsファイルの読み込み-->
+  <script type="text/javascript" src="index.js"></script>
+ </body>
+</html>
